@@ -4,7 +4,11 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+}
+
+img     {
+    max-width: 100%;
 }
 
 .column{
@@ -29,20 +33,23 @@ li, a, button {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(#060607, #D1C4C0,  #5E6167, #AEB3BB);
+    /* background-image: linear-gradient(#060607, #D1C4C0,  #5E6167, #AEB3BB); */
     margin: 0%;
+    background-color: rgb(240,176,3);
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
-    background-image: linear-gradient(#060607, #D1C4C0, #5E6167, #AEB3BB);
+    padding: 10px ; 
+    /* background-image: linear-gradient(#060607, #D1C4C0, #5E6167, #AEB3BB); */
+    background-color: rgb(240,176,3);
+
 } 
 .main-header h1{
 font-family: serif;
-padding-left: 15%;
+padding-left: 17%;
 }
 
 .logo {
@@ -74,22 +81,42 @@ padding-left: 15%;
 
 .home-banner {
     background-image: url("jesperhero.webp"); 
-    height: 53vh;
-    width: 150ch
-    background-position; center:
-    padding-right; 5ch;}
+    height: 49vh;
+    width: 100
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .home-banner-socialmedia {
-    background-image: url("socialmedia.jpg"); 
-    height: 1000px;
-    width: 1000ch
-    background-position; center;
-    padding-right: 5ch;
+    background-image: url("socialmedia-removebg-preview.png"); 
+    height: 73vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+/* background-image: linear-gradient(85deg, rgba(240,176,3,1) 0%, rgba(218,207,113,1) 45%, rgba(216,164,2,1) 100%); */
+background-image: url("socialmedia-removebg-preview.png");
+background-color: rgb(240,176,3);
 }
 
 .main-footer {
     min-height: 3ch;
     background-color: #ffffff;
+    /* padding-bottom: 10px; */
+    font-family: serif;
+    /* background-image: linear-gradient(#060607, #D1C4C0, #5E6167, #AEB3BB); */
+    background-color: rgb(240,176,3);
 }
+
+.footer.button {
+    color: white;
+    background-color: black;
+    padding: 2ch;
+    display: block;
+    text-decoration: none;
+    max-width: 150px;
+    text-align: center;
+    margin-top: 2ch;
+    border-radius: 1ch;
+  }
 .social-nav{
     text-align: right;
 }
@@ -124,6 +151,10 @@ padding-left: 15%;
 .buttons{
     text-align: center;
     padding-bottom: 1em;
+}
+
+.copyright {
+text-align: center;
 }
 
 
